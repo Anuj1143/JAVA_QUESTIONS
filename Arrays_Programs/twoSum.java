@@ -1,4 +1,4 @@
- package Arrays_Programs;
+
 
 import java.util.Scanner;
 
@@ -24,6 +24,7 @@ class twoSum {
          int target=sc.nextInt();
          int ans=pairSum(arr, target);
          System.out.println(ans);
+         sc.close();
     }
     
 } 

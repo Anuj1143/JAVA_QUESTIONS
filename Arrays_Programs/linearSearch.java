@@ -1,4 +1,4 @@
-package Arrays_Programs;
+
 
 import java.util.Scanner;
 
@@ -29,6 +29,7 @@ public class linearSearch {
         }
         int target=sc.nextInt();
 
-        search(arr, target);
+        search(arr, target); sc.close();
+
     }
 }

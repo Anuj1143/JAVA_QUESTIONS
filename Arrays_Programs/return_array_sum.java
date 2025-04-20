@@ -1,4 +1,4 @@
-package Arrays_Programs;
+
 import java.util.*;
 public class return_array_sum {
     public static void main(String[] args) {
@@ -11,7 +11,7 @@ public class return_array_sum {
         }
       int result=Sum(arr);
        System.out.println(result);
-
+       sc.close();
        
     }
     public static  int  Sum(int[] arr){
@@ -20,5 +20,6 @@ public class return_array_sum {
             sum+=arr[i];
         }
         return sum;
+       
     }
 }

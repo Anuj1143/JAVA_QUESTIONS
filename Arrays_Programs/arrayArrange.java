@@ -1,4 +1,4 @@
-package Arrays_Programs;
+
 
 import java.util.Scanner;
 
@@ -21,6 +21,6 @@ public class arrayArrange {
         int n=sc.nextInt();
         int arr[]=new int[n];
         arrange(arr, n);
-       
+        sc.close();
     }
 }
